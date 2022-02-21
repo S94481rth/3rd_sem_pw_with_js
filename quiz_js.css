@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+    background : linear-gradient(to right,#4285F4,#9CECFB);
+     font-family: "Roboto",sans-serif;
+
+}
+.quiz_container{
+    padding-top: 10%;
+    width: 360px;
+    height: 360px;
+    border-radius: 10%;
+    background-color: white;
+    align-items: center;
+    transform: translate(100%,-15%);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+.questions{
+    transform: translate(15%,0%);
+}
+
+li{
+    padding : 2%;
+    font-size: 110%;
+    list-style: none;
+    
+}
+
+button{
+    cursor: pointer;
+    transform: translate(85%,0%);
+    margin-top: 10%;
+    height: 40px;
+    width: 100px;
+    background-color: #4285F4;
+    color: black;
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: #206BE4;
+}
+
+.question{
+    transform: translate(5%);
+}
+
+input,label{
+     cursor: pointer;
+     transform: translate(-5%);
+}
+.logo{
+    position: center;
+    width: 40px;
+    height: 40px;
+    transform: translate(-1200%,30%);
+}
+.user{
+    width: 40px;
+    height: 40px;
+    transform: translate(125%,-70%);
+}
+
+ul{
+    transform: translate(-12%);
+}
